@@ -1,0 +1,2 @@
+mkdir -p elk-docker-setup/{elasticsearch/config,kibana/config,logstash/{config,pipeline},volumes/{es_data,logstash_data,kibana_data}} && \
+touch elk-docker-setup/docker-compose.yml elk-docker-setup/elasticsearch/config/elasticsearch.yml elk-docker-setup/kibana/config/kibana.yml elk-docker-setup/logstash/config/logstash.yml elk-docker-setup/logstash/pipeline/logstash.conf
