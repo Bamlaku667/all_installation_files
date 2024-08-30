@@ -1,0 +1,22 @@
+elk-docker-setup/
+│
+├── docker-compose.yml
+│
+├── elasticsearch/
+│   └── config/
+│       └── elasticsearch.yml  # Optional: Custom Elasticsearch configuration
+│
+├── kibana/
+│   └── config/
+│       └── kibana.yml  # Optional: Custom Kibana configuration
+│
+├── logstash/
+│   ├── config/
+│   │   └── logstash.yml  # Logstash configuration
+│   └── pipeline/
+│       └── logstash.conf  # Logstash pipeline configuration
+│
+└── volumes/
+    ├── es_data/  # Persistent volume for Elasticsearch data
+    ├── logstash_data/  # Optional: Persistent volume for Logstash data
+    └── kibana_data/  # Optional: Persistent volume for Kibana data
